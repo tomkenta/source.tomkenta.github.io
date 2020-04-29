@@ -2,3 +2,24 @@ baseURL = "https://tomkenta.github.io"
 languageCode = "en-us"
 title = "Welecome, tomkenta's page"
 theme = "hugo-theme-hello-friend-tk"
+
+[params]
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/tomkenta"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/tomkenta"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/kenta-yokota/"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "https://blog.tomkenta.com"
