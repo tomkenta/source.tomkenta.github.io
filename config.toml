@@ -3,6 +3,18 @@ languageCode = "en-us"
 title = "Welecome, tomkenta's page"
 theme = "hugo-theme-hello-friend-tk"
 
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+
 [params]
 
   [params.logo]
