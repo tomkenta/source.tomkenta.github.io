@@ -43,5 +43,9 @@ canonifyURLs = true
 [menu]
   [[menu.main]]
     identifier = "blog"
-    name       = "Blog"
+    name       = "blog"
     url        = "https://blog.tomkenta.com"
+  [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "/about"
