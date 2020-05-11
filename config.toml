@@ -40,12 +40,20 @@ canonifyURLs = true
     name = "linkedin"
     url  = "https://www.linkedin.com/in/kenta-yokota/"
 
+  [[params.social]]
+    name = "qiita"
+    url  = "https://qiita.com/tomkenta"
+
+ [[params.social]]
+    name = "reddit"
+    url  = "https://www.reddit.com/user/tomkenta"
+  
 [menu]
   [[menu.main]]
     identifier = "blog"
     name       = "blog"
     url        = "https://blog.tomkenta.com"
   [[menu.main]]
-    identifier = "about"
-    name       = "about"
-    url        = "/about"
+    identifier = "whois"
+    name       = "whois tomkenta"
+    url        = "/whois-tomkenta"
