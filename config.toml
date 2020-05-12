@@ -1,6 +1,6 @@
 baseURL = "https://tomkenta.github.io"
 languageCode = "en-us"
-title = "Welecome, tomkenta's page"
+title = "tomkenta"
 theme = "hugo-theme-hello-friend-tk"
 
 archetypeDir = "archetypes"
@@ -14,8 +14,12 @@ buildFuture  = false
 buildExpired = false
 canonifyURLs = true
 
+[author]
+  name = "tomkenta"
 
 [params]
+
+  homeSubtitle = "Full stack web developer"
 
   [params.logo]
     logoText     = "cd ~ "
@@ -49,11 +53,15 @@ canonifyURLs = true
     url  = "https://www.reddit.com/user/tomkenta"
   
 [menu]
-  [[menu.main]]
-    identifier = "blog"
-    name       = "blog"
-    url        = "https://blog.tomkenta.com"
+
   [[menu.main]]
     identifier = "whois"
     name       = "whois tomkenta"
     url        = "/whois-tomkenta"
+    weight     = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name       = "blog"
+    url        = "https://blog.tomkenta.com"
+    weight     = 2
