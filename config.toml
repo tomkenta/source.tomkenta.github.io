@@ -18,7 +18,7 @@ canonifyURLs = true
 [params]
 
   [params.logo]
-    logoText     = "$tomkenta@github.io cd ~ "
+    logoText     = "cd ~ "
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
